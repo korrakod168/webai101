@@ -1,0 +1,28 @@
+{
+  "Mermaid": {
+    "result1": "assets/mermaid-result1.png",
+    "result2": "assets/mermaid-result2.svg"
+  },
+  "Desmos": {
+    "result1": "assets/desmos-result1.png",
+    "result2_primary": "assets/desmos-h001.png",
+    "result2_sequence": [
+      "assets/desmos-h1.png",
+      "assets/desmos-h05.png",
+      "assets/desmos-h01.png",
+      "assets/desmos-h001.png"
+    ]
+  },
+  "Overleaf": {
+    "result1": "assets/overleaf-result1-cover.png",
+    "result2": "assets/overleaf-result2-cover.png"
+  },
+  "ImageGen": {
+    "result1": "assets/imagegen-result1.png",
+    "result2": "assets/imagegen-result2.png"
+  },
+  "NotebookLM": {
+    "result1": "assets/notebooklm-result1.svg",
+    "result2": "assets/notebooklm-result2.svg"
+  }
+}

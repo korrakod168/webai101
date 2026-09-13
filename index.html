@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Prompt Development Portfolio — From Zero-shot to Refined Results" />
+  <title>Prompt Development Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#top">
+        <span class="brand-mark">P</span>
+        <span>Prompt Portfolio</span>
+      </a>
+      <button class="menu-toggle" aria-label="เปิดเมนู" aria-expanded="false">☰</button>
+      <nav class="nav-links">
+        <a href="#framework">Framework</a>
+        <a href="#mermaid">Mermaid</a>
+        <a href="#desmos">Desmos</a>
+        <a href="#overleaf">Overleaf</a>
+        <a href="#imagegen">Image Gen</a>
+        <a href="#notebooklm">NotebookLM</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <p class="kicker">PROMPT DEVELOPMENT PORTFOLIO</p>
+          <h1>From <span>Zero-shot</span><br>to Refined Results</h1>
+          <p class="hero-copy">
+            ทดลองพัฒนา Prompt ผ่านงานจริง 5 รูปแบบ — Workflow, Calculus Visualization,
+            LaTeX Publishing, AI Image Generation และ Slide Presentation
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#framework">ดูแนวคิดหลัก</a>
+            <a class="btn ghost" href="#mermaid">เริ่มดูผลงาน</a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="formula-label">CORE IDEA</div>
+          <div class="formula">
+            Better Prompt =
+            <b>Context</b> + <b>Clear Goal</b> + <b>Constraints</b> +
+            <b>Examples</b> + <b>Feedback</b>
+          </div>
+          <div class="hero-tags">
+            <span>01 Mermaid</span><span>02 Desmos</span><span>03 Overleaf</span>
+            <span>04 Image Gen</span><span>05 NotebookLM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="framework" class="section framework">
+      <div class="section-head">
+        <p class="eyebrow">FRAMEWORK</p>
+        <h2>โครงสร้างการทดลองเดียวกันในทุกเครื่องมือ</h2>
+        <p>แต่ละงานเริ่มจากคำสั่งสั้น ๆ แล้วใช้ผลลัพธ์จริงเป็น Feedback เพื่อพัฒนา Prompt รอบถัดไป</p>
+      </div>
+      <div class="flow-row">
+        <div class="flow-step"><span>01</span><b>Objective</b><small>กำหนดเป้าหมาย</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><span>02</span><b>Zero-shot</b><small>Prompt รอบแรก</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><span>03</span><b>Result 1</b><small>ดูสิ่งที่ได้จริง</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><span>04</span><b>Refine</b><small>วิเคราะห์ + เพิ่มเงื่อนไข</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><span>05</span><b>Result 2</b><small>เปรียบเทียบผลลัพธ์</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><span>06</span><b>Reflection</b><small>สิ่งที่เรียนรู้</small></div>
+      </div>
+    </section>
+
+    <section id="mermaid" class="project section">
+      <div class="project-top">
+        <div>
+          <p class="project-no">PROJECT 01</p>
+          <h2>Mermaid AI <span>— Workflow</span></h2>
+        </div>
+        <span class="status">Logic / Process</span>
+      </div>
+
+      <div class="objective">
+        <strong>Objective</strong>
+        <p>สร้าง Workflow ที่อธิบายกระบวนการพัฒนา Prompt และการเรียนรู้จากผลลัพธ์จริง</p>
+      </div>
+
+      <div class="prompt-box">
+        <div class="prompt-label">ZERO-SHOT PROMPT</div>
+        <blockquote>“สร้าง workflow แสดงขั้นตอนการทำงานของฉันในการพัฒนา Prompt และสร้างผลงานด้วย AI”</blockquote>
+      </div>
+
+      <div class="compare">
+        <figure class="result-card before">
+          <figcaption><span>Result 1</span><b>Workflow ทั่วไป</b></figcaption>
+          <img src="assets/mermaid-result1.png" alt="Mermaid Zero-shot result" onerror="this.src='assets/mermaid-result1-chat.png'">
+          <p>AI สร้างลำดับงานพื้นฐานได้ แต่ยังไม่แยก Zero-shot / Refined Prompt และยังไม่เน้นการเรียนรู้จากข้อผิดพลาด</p>
+        </figure>
+        <figure class="result-card after">
+          <figcaption><span>Result 2</span><b>Workflow ที่เฉพาะเจาะจงขึ้น</b></figcaption>
+          <img src="assets/mermaid-result2.png" alt="Mermaid refined result">
+          <p>เพิ่มโครงสร้าง Zero-shot → วิเคราะห์ผล → ปรับ Prompt → Result 2 → Reflection เพื่อสะท้อนงานจริง</p>
+        </figure>
+      </div>
+
+      <div class="issue-refine">
+        <div class="issue"><b>ปัญหาที่พบ</b><p>แผนภาพรอบแรกกว้างเกินไปและไม่สะท้อนวัตถุประสงค์ของงานนี้โดยตรง</p></div>
+        <div class="refine"><b>Refined Prompt</b><p>เพิ่มข้อกำหนดให้แสดง Zero-shot, ข้อดี/ข้อเสีย, การปรับ Prompt, การทดลองใหม่ และการเปรียบเทียบผลลัพธ์</p></div>
+      </div>
+
+      <div class="reflection"><b>Key Learning</b><p>การระบุโครงสร้างและวัตถุประสงค์ เปลี่ยน Workflow จากแผนทั่วไปให้เป็นกระบวนการที่สะท้อนการทำงานจริง</p></div>
+    </section>
+
+    <section id="desmos" class="project section">
+      <div class="project-top">
+        <div>
+          <p class="project-no">PROJECT 02</p>
+          <h2>ChatGPT + Desmos <span>— Derivative</span></h2>
+        </div>
+        <span class="status">Math / Interactive Learning</span>
+      </div>
+
+      <div class="objective">
+        <strong>Objective</strong>
+        <p>ใช้กราฟอธิบายว่า derivative มาจากไหน ไม่ใช่เพียงแสดงคำตอบสุดท้าย</p>
+      </div>
+
+      <div class="prompt-box">
+        <div class="prompt-label">ZERO-SHOT PROMPT</div>
+        <blockquote>“ช่วยออกแบบกราฟใน Desmos เพื่ออธิบายว่า derivative คืออะไร”</blockquote>
+      </div>
+
+      <div class="compare">
+        <figure class="result-card before">
+          <figcaption><span>Result 1</span><b>เห็น tangent แต่ยังไม่เห็นที่มา</b></figcaption>
+          <img src="assets/desmos-result1.png" alt="Desmos tangent result">
+          <p>ได้กราฟ f(x)=x², จุด A และ tangent line แต่ผู้เรียนเห็นเพียงความชัน m=2a</p>
+        </figure>
+        <figure class="result-card after">
+          <figcaption><span>Result 2</span><b>Secant → Tangent</b></figcaption>
+          <img src="assets/desmos-h001.png" alt="Desmos refined derivative result">
+          <p>เพิ่มจุด B, secant line, slider h และ difference quotient เพื่อเห็นกระบวนการ h → 0</p>
+        </figure>
+      </div>
+
+      <div class="prompt-box refined">
+        <div class="prompt-label">REFINED / FEW-SHOT PROMPT</div>
+        <blockquote>
+          เพิ่มจุด B, เส้น secant และ slider h ให้เห็นว่าเมื่อ h เข้าใกล้ 0
+          ความชัน secant เข้าใกล้ tangent พร้อมตัวอย่าง h = 1, 0.5, 0.1, 0.01
+        </blockquote>
+      </div>
+
+      <div class="metric-strip">
+        <span>h = 1 → <b>3</b></span>
+        <span>h = 0.5 → <b>2.5</b></span>
+        <span>h = 0.1 → <b>2.1</b></span>
+        <span>h = 0.01 → <b>2.01</b></span>
+        <span class="target">→ <b>2</b></span>
+      </div>
+
+      <div class="reflection"><b>Key Learning</b><p>Prompt ที่ละเอียดขึ้นเปลี่ยน Desmos จาก “Graph Drawing Tool” เป็น “Interactive Learning Tool”</p></div>
+    </section>
+
+    <section id="overleaf" class="project section">
+      <div class="project-top">
+        <div>
+          <p class="project-no">PROJECT 03</p>
+          <h2>ChatGPT + Overleaf <span>— Thai LaTeX Book</span></h2>
+        </div>
+        <span class="status">Publishing / Technical Constraints</span>
+      </div>
+
+      <div class="objective">
+        <strong>Objective</strong>
+        <p>สร้างหนังสือภาษาไทยเรื่อง “AI แต่ละตัวช่วยอะไรได้บ้าง” ด้วย LaTeX ที่ใช้งานได้จริงบน Overleaf</p>
+      </div>
+
+      <div class="prompt-box">
+        <div class="prompt-label">ZERO-SHOT PROMPT</div>
+        <blockquote>“ช่วยเขียน LaTeX สำหรับหนังสือสั้น ๆ ที่อธิบายว่า AI แต่ละตัวช่วยอะไรได้บ้าง”</blockquote>
+      </div>
+
+      <div class="compare">
+        <figure class="result-card before">
+          <figcaption><span>Result 1</span><b>Compile ได้ แต่ใช้งานจริงไม่ได้</b></figcaption>
+          <img src="assets/overleaf-result1-cover.png" alt="Overleaf first result">
+          <p>ภาษาไทยหลายส่วนเป็นสี่เหลี่ยม สารบัญและหัวบทมีปัญหา และ layout ยังเหมือนเอกสารพื้นฐาน</p>
+        </figure>
+        <figure class="result-card after">
+          <figcaption><span>Result 2</span><b>หนังสือภาษาไทยที่ใช้งานได้</b></figcaption>
+          <img src="assets/overleaf-result2-cover.png" alt="Overleaf refined result">
+          <p>กำหนด XeLaTeX + Thai font + Unicode + โครงสร้างบท + prompt box + ตารางเปรียบเทียบ</p>
+        </figure>
+      </div>
+
+      <div class="issue-refine">
+        <div class="issue"><b>ปัญหาที่พบ</b><p>Prompt รอบแรกบอก “เนื้อหา” แต่ไม่ได้ระบุ compiler, font, Unicode และ layout requirements</p></div>
+        <div class="refine"><b>Refined Prompt</b><p>กำหนด XeLaTeX, ฟอนต์ไทย, สารบัญภาษาไทย, โครงสร้างบท, Prompt example, Zero-shot/Few-shot และตารางเปรียบเทียบ</p></div>
+      </div>
+
+      <div class="reflection"><b>Key Learning</b><p>โค้ดที่ Compile ได้ ≠ โค้ดที่ใช้งานได้จริง — Prompt ต้องระบุทั้งเนื้อหาและข้อจำกัดทางเทคนิค</p></div>
+    </section>
+
+    <section id="imagegen" class="project section">
+      <div class="project-top">
+        <div>
+          <p class="project-no">PROJECT 04</p>
+          <h2>AI Image Generation <span>— Book Cover</span></h2>
+        </div>
+        <span class="status">Design / Visual Constraints</span>
+      </div>
+
+      <div class="objective">
+        <strong>Objective</strong>
+        <p>สร้างปกหนังสือ “AI แต่ละตัวช่วยอะไรได้บ้าง” ให้ดูเป็นปกหนังสือจริง ไม่ใช่โปสเตอร์ประชาสัมพันธ์</p>
+      </div>
+
+      <div class="prompt-box">
+        <div class="prompt-label">ZERO-SHOT PROMPT</div>
+        <blockquote>“สร้างปกหนังสือหัวข้อ AI แต่ละตัวช่วยอะไรได้บ้าง”</blockquote>
+      </div>
+
+      <div class="compare image-cover-compare">
+        <figure class="result-card before">
+          <figcaption><span>Result 1</span><b>สวย แต่คล้าย Poster</b></figcaption>
+          <img class="cover-img" src="assets/imagegen-result1.png" alt="AI book cover result 1">
+          <p>องค์ประกอบเยอะ ไอคอนหลายจุด มีบุคคลเป็น visual หลัก และ negative space น้อย</p>
+        </figure>
+        <figure class="result-card after">
+          <figcaption><span>Result 2</span><b>Book Cover ที่ชัดขึ้น</b></figcaption>
+          <img class="cover-img" src="assets/imagegen-result2.png" alt="AI book cover result 2">
+          <p>ใช้แนวคิดภาพหลักเพียงหนึ่งภาพ ลด icon ไม่มีบุคคล และควบคุม Navy / White / Cyan</p>
+        </figure>
+      </div>
+
+      <div class="prompt-box refined">
+        <div class="prompt-label">REFINED / FEW-SHOT PROMPT</div>
+        <blockquote>
+          ปกแนวตั้ง, title เด่นที่สุด, subtitle ใต้ชื่อ, ภาพแนวคิดหลักภาพเดียว,
+          เพิ่ม negative space, ไม่มีบุคคล, โทน Navy/White/Cyan และให้ดูเป็นหนังสือเทคโนโลยีด้านการศึกษา
+        </blockquote>
+      </div>
+
+      <div class="reflection"><b>Key Learning</b><p>Negative constraints สำคัญพอ ๆ กับสิ่งที่ต้องการ — เมื่อ AI ถูกตีกรอบมากขึ้น ผลลัพธ์จะมีความเป็นมืออาชีพมากขึ้น</p></div>
+    </section>
+
+    <section id="notebooklm" class="project section">
+      <div class="project-top">
+        <div>
+          <p class="project-no">PROJECT 05</p>
+          <h2>NotebookLM <span>— Slide Presentation</span></h2>
+        </div>
+        <span class="status">Synthesis / Presentation</span>
+      </div>
+
+      <div class="objective">
+        <strong>Objective</strong>
+        <p>นำหลักฐานจากทุกการทดลองมาสร้างสไลด์นำเสนอที่เล่าเรื่อง Zero-shot → Refined Prompt ได้อย่างเป็นระบบ</p>
+      </div>
+
+      <div class="prompt-box">
+        <div class="prompt-label">ZERO-SHOT PROMPT</div>
+        <blockquote>“สร้างสไลด์นำเสนอจากข้อมูลทั้งหมดนี้”</blockquote>
+      </div>
+
+      <div class="compare">
+        <figure class="result-card before">
+          <figcaption><span>Result 1</span><b>Deck 13 หน้า</b></figcaption>
+          <img src="assets/notebooklm-result1.png" alt="NotebookLM result 1 placeholder">
+          <p>จับ narrative ร่วมได้ดี แต่ยังย่อบางขั้นตอนมากเกินไป และยังไม่แยก 5 ขั้นตาม rubric อย่างชัดเจน</p>
+        </figure>
+        <figure class="result-card after">
+          <figcaption><span>Result 2</span><b>Final Refined Deck</b></figcaption>
+          <img src="assets/notebooklm-result2.png" alt="NotebookLM result 2 placeholder">
+          <p>พื้นที่นี้เตรียมไว้สำหรับ Final deck หลังปรับ Prompt รอบถัดไป</p>
+        </figure>
+      </div>
+
+      <div class="issue-refine">
+        <div class="issue"><b>ปัญหาที่พบ</b><p>Result 1 เล่าเรื่องได้ดี แต่ยังไม่แยก Zero-shot / Result 1 / Prompt รอบใหม่ / Result 2 / Reflection ชัดในทุกหัวข้อ</p></div>
+        <div class="refine"><b>Next Refined Prompt</b><p>กำหนดจำนวนสไลด์ โครงสร้าง 5 ขั้นต่อหัวข้อ ใช้ prompt จริงและ screenshot จริง พร้อม Reflection ที่สอดคล้องกับหลักฐาน</p></div>
+      </div>
+
+      <div class="reflection"><b>Status</b><p>Result 2 ของ NotebookLM จะถูกเพิ่มหลังสร้าง Final slide deck เพื่อให้เว็บไซต์นี้เป็นหลักฐานฉบับสมบูรณ์</p></div>
+    </section>
+
+    <section class="section conclusion">
+      <div class="section-head">
+        <p class="eyebrow">FINAL REFLECTION</p>
+        <h2>AI ไม่ได้รู้สิ่งที่อยู่ในความคิดเรา — Prompt คือสถาปัตยกรรมของผลลัพธ์</h2>
+      </div>
+      <div class="final-formula">
+        <span>Better Prompt</span>
+        <b>=</b>
+        <span>Context</span>
+        <b>+</b>
+        <span>Clear Goal</span>
+        <b>+</b>
+        <span>Constraints</span>
+        <b>+</b>
+        <span>Examples</span>
+        <b>+</b>
+        <span>Feedback</span>
+      </div>
+      <p class="final-note">
+        Zero-shot เหมาะสำหรับเริ่มต้นอย่างรวดเร็ว แต่เมื่อผลลัพธ์ถูกนำมาวิเคราะห์และเปลี่ยนเป็น Feedback
+        เราสามารถเพิ่มบริบท ข้อจำกัด และตัวอย่างเพื่อเปลี่ยนผลลัพธ์ทั่วไปให้กลายเป็นผลลัพธ์เฉพาะงานได้
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>Prompt Development Portfolio</strong>
+      <p>From Zero-shot to Refined Results</p>
+    </div>
+    <a href="#top">กลับด้านบน ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
